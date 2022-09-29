@@ -5,11 +5,12 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
     
 }
 
 .container{
-    margin: 0 25px;
+    margin: 0 2.5rem;
     background-color: aqua;
 }
 .header {
@@ -19,7 +20,7 @@
     width: 100%;
     top: 0;
     z-index: 0;
-    padding-top: 5px;
+    padding-top: 0.5rem;
 }
 
 .header .container{
@@ -29,11 +30,12 @@
 }
 
 .logo {
-    width: 100px;
+    width: 10rem
+    ;
 }
 
 .logo-menu{
-    width: 25px;
+    width: 2.5rem;
 }
 
 /*
@@ -64,64 +66,66 @@
     /*background-image: url(../img/premium_dancer.png);*/
     background-repeat: no-repeat;
     background-position: right;
-    /*height: 50%;*/ 
+    /*height: 50%;*/
+    padding-top: 15rem;
+    padding-bottom: 4rem;   
+}
+
+.top .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    gap: 20px;
-    padding-top: 150px;
-    padding-bottom: 40px;   
+    gap: 2rem;
 }
 
 .titulo-principal{
     color:var(--color-fuente-uno);
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: bold;
-    line-height: 60px;
-
+    /*line-height: 60px;*/
 }
 
 .parrafo-principal{
     color: var(--color-fuente-uno);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
-    line-height: 40px;
+    /* line-height: 40px; */
 }
 
 .ver-planes{
     color: var(--color-fuente-uno);
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
     background-color: green;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 2rem;
+    padding: 1rem;
 }
 
 .nota{
     color: var(--color-fuente-uno);
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 1.2rem;
+    /* line-height: 20px; */
 }
 
-.bottom{
+.bottom .container {
     display: flex;
     flex-direction: column;
     background-color: red;
-    flex-grow: 1;
+    gap: 2.5rem;
 }
 
 .titulo-premium{
-    font-size: 32px;
-
+    font-size: 2.5rem;
+    text-align: center;
 }
 
-
 .img-premium{
-    width: 100px;
+    width: 10rem;
 }
 
 .apartados {
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -129,6 +133,11 @@
     display: flex;
     justify-content: flex-start;
     background-color: green;
+    gap: 1.5rem;
+}
+.benefit-parrafo {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .footer {
