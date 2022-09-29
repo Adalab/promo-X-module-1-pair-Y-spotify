@@ -1,0 +1,148 @@
+:root{
+    --color-fuente-uno: white;
+    --color-fuente-dos: black; 
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container{
+    margin: 0 25px;
+    background-color: aqua;
+}
+.header {
+    background-color: black;
+    height: 6vh;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+    padding-top: 5px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo-menu{
+    width: 25px;
+}
+
+/*
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.link {
+    color: var(--color-fuente-uno);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
+*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /*height: 80vh;*/
+}
+
+.top {
+    background-color: blue;
+    /*background-image: url(../img/premium_dancer.png);*/
+    background-repeat: no-repeat;
+    background-position: right;
+    /*height: 50%;*/ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 150px;
+    padding-bottom: 40px;   
+}
+
+.titulo-principal{
+    color:var(--color-fuente-uno);
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+
+}
+
+.parrafo-principal{
+    color: var(--color-fuente-uno);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.ver-planes{
+    color: var(--color-fuente-uno);
+    font-size: 16px;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nota{
+    color: var(--color-fuente-uno);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    flex-grow: 1;
+}
+
+.titulo-premium{
+    font-size: 32px;
+
+}
+
+
+.img-premium{
+    width: 100px;
+}
+
+.apartados {
+    font-weight: bold;
+}
+
+.benefit{
+    display: flex;
+    justify-content: flex-start;
+    background-color: green;
+}
+
+.footer {
+    background-color: black;
+    color: var(--color-fuente-uno);
+    width: 100%;
+    height: 10vh;
+   /* position: fixed;
+    bottom: 0;*/
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
